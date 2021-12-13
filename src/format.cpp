@@ -5,10 +5,7 @@
 using std::string;
 using std::to_string;
 
-// TODO: Complete this helper function
-// INPUT: Long int measuring seconds
-// OUTPUT: HH:MM:SS
-// REMOVE: [[maybe_unused]] once you define the function
+// Helper function to format total seconds to HH:MM:SS time format
 string Format::ElapsedTime(long seconds) {
     int h,m,s;
     string HH,MM,SS;
