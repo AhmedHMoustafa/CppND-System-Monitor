@@ -1,8 +1,8 @@
-# CppND-System-Monitor
+# CppND-System-Monitor (Overview)
 
 My Code for System Monitor Project in the Object Oriented Programming Course of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
 
-![System Monitor](images/monitor.png)
+A program similar to htop (Linux), Process Explorer (Windows), Activity Monitor (Mac) that views the active processes and other computer data on Linux using C++.
 
 
 ## ncurses
@@ -24,4 +24,6 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 2. Build the project: `make build`
 
 3. Run the resulting executable: `./build/monitor`
+
+
 ![Starting System Monitor](images/starting_monitor.png)
